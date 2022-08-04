@@ -1,0 +1,236 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nev{
+    display: flex;
+    background-color: rgb(27, 24, 24);
+}
+.brand{
+    font-size: 25px;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.text1{
+    color: white;
+    text-decoration-line:none
+}
+.links{
+    margin-left: 50%;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.text2{
+    color: white;
+    text-decoration-line:none;
+    margin-left: 30px;
+    
+}
+.pos2{
+    background-color: rgb(27, 24, 24);
+    padding: 8%;
+    text-align: center;
+}
+.heading{
+    font-size: 70;
+    font-weight: bolder;
+    color: white;
+}
+.lines{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 30;
+}
+.buttens{
+    margin-top: 5%;
+}
+.butten1,.butten2{
+    font-size: x-large;
+    color: white;
+    text-decoration-line:none;
+    padding: 15px;
+    border-radius: 8px;
+
+}
+.butten1{
+    background-color: blue;
+}
+.butten2{
+    border: 1px solid;
+    margin-left: 5%;
+}
+.icondiv{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding: 5%;
+}
+.collection{
+    background-color: rgb(13, 110, 253);
+    padding: 10px;
+    border-radius: 8px;
+}
+.iconheading{
+    font-size: 50;
+    font-weight: bolder;
+}
+.p1{
+    font-size: larger;
+}
+.links2{
+    font-size: 20px;
+}
+.pos3{
+    background-color:rgb(248 ,249, 250);
+    margin-top: -8px;
+    padding: 100px;
+    margin-bottom: -8px;
+}
+.pos3c1{
+    text-align: center;
+    padding-top: 100px;
+}
+.pay{
+    font-weight: bolder;
+    font-size: 50px;
+}
+.lines2{
+    font-size: 30px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.877);
+
+}
+.ops{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 5%;
+}
+.ops1,.ops2,.ops3{
+    background-color: white;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.301);
+    padding: 70px;
+}
+.free{
+    font-size: large;
+    color: rgba(0, 0, 0, 0.548);
+}
+.prc{
+    font-size: xxx-large;
+}
+.star{
+    color: yellowgreen;
+    font-size: larger;
+}
+.check{
+    color: rgba(0, 0, 255, 0.651);
+    font-size: larger;
+}
+.off{
+    color: rgba(0, 0, 0, 0.562);
+    font-size: larger;
+}
+.on{
+    font-size: larger;
+}
+.butten3{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 15px;
+    padding-right: 70px;
+    text-decoration-line: none;
+    color: rgba(0, 0, 255, 0.644);
+}
+.buttendiv{
+    margin-top: 20%;
+}
+.pos4{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 100px;
+}
+.h1{
+    font-weight: bolder;
+    font-size: xxx-large;
+}
+.h2{
+    font-size: xx-large;
+    color: rgba(0, 0, 0, 0.76);
+}
+.cmtbox1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid;
+    font-size: x-large;
+    border-color: rgba(0, 0, 0, 0.507);
+    margin-left: 29%;
+    margin-right: 29%;
+    padding: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 5%;
+}
+.cmttext{
+    text-align: left;
+    margin-left: 15px;
+}
+.pos5{
+    display: flex;
+    background-color: rgb(248 ,249, 250);
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -8px;
+    justify-content: center;
+    padding: 5%;
+    margin-bottom: -8px;
+}
+.sms{
+    font-size: 100px;
+    color: rgb(71, 71, 202);
+}
+.smstext{
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+.smstext2{
+    font-size: xx-large;
+    color: rgba(0, 0, 0, 0.774);
+
+}
+.inputbox1{
+    height: 70px;
+    width: 600px;
+    align-items: center;
+    margin-left: 32%;
+    font-size: x-large;
+    margin-top: 1%;
+}
+.btn5{
+    display: flex;
+    font-size: xx-large;
+    margin-top: 5%;
+    border: 1px solid;
+    width: 600px;
+    height: 60px;
+    margin-left: 32%;
+    border-color: rgb(107, 107, 240);
+    background-color: rgb(107, 107, 240);
+    justify-content: center;
+}
+.subtn{
+    text-decoration-line: none;
+    color: white;
+    margin-top: 12px;
+}
+.botom{
+    background-color: rgb(27, 24, 24);
+    margin-top: -9px;
+    padding: 90px;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}

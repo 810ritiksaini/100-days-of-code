@@ -1,0 +1,167 @@
+body{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+body hr{
+    color: black;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.44);
+}
+.head{
+    background-image: url("HeadBG.png");
+}
+.pic-h-w{
+    height: 805px;
+    width: 1686px;
+    margin-top: -9px;
+    margin-bottom: -9px;
+}
+.nav {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    padding: 1%;
+    margin-top: 2%;
+    border-radius: 47px;
+    background-color: lightblue;
+    
+}
+.nav li{
+    float: left;
+    list-style: none;
+    gap: 5%;
+}
+.nav a{
+    padding: 18px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+}
+.nav ul{
+    display: flex;
+    gap: 5%;
+    flex-basis: 85%;
+    justify-content: flex-end;
+}
+.nav-div{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 1px;
+}
+.nav-brand{
+    font-size: larger;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-top: 0.9%;
+}
+.head-top-tagline{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.head-top-tagline span{
+    font-size: 450%;
+    width: 17%;
+    margin-top: 9%;
+    color: blue;
+    background-color: rgba(0, 0, 0, 0.287);
+    border-radius: 50px;
+    padding: 2%;
+}
+.head-top-button{
+    background-color: skyblue;
+    width: 7%;
+    margin: auto;
+    margin-top: 1%;
+    text-align: center;
+    padding: 1%;
+    border-radius: 13px;
+    transition: ease-in-out;
+}
+.head-top-button a{
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    transition: ease-in-out;
+}
+.div1{
+    background-image: url("circket-BG.jpg");
+
+}
+.div2{
+    background-image: url("tennis.jpg");
+}
+.div3{
+    background-image: url("hockey-bg.jpg");
+}
+.headings span{
+    font-size: 52px;
+    color: white;
+    background-color: rgba(137, 43, 226, 0.293);
+    padding: 1%;
+    border-radius: 14px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.headings{
+    padding-top: 8%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.product{
+    display: flex;
+    margin-top: 8%;
+    padding: 1%;
+    width: max-content;
+    margin: auto;
+    background-color: rgb(67, 58, 58);
+}
+.product-image img{
+    height: 300px;
+}
+.product-summery{
+    margin: 5%;
+    width: max-content;
+    background-color: rgb(37, 34, 34);
+    text-align: center;
+}
+.product-summery span {
+    font-size: xx-large;
+    font-weight: bold;
+}
+.product-summery li{
+    font-size: large;
+    text-align: left;
+}
+.button{
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    margin-top: 5%;
+}
+.button-div a{
+    font-size: xx-large;
+    text-decoration: none;
+    background-color: rgb(242, 255, 0);
+    padding: 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.div5{
+    background-color: darkgreen;
+    justify-content: center;
+    gap: 2%;
+    display: flex;
+    margin: auto;
+}
+.ind-products-part{
+    border: 1px solid;
+    height: 40%;
+    width: 30%;
+    margin-top: 5%;
+}
