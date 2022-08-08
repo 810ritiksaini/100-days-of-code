@@ -1,0 +1,227 @@
+body {
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+body hr {
+    color: black;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.44);
+}
+.head {
+    background-image: url("HeadBG.png");
+}
+.pic-h-w {
+    height: 805px;
+    padding-top: 1px;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.nav {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    background-color: lightblue;
+    height: 80px;
+    align-items: center;
+    position: fixed;
+}
+.nav li {
+    float: left;
+    list-style: none;
+    gap: 5%;
+}
+#links {
+    padding: 18px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+}
+.nav ul {
+    display: flex;
+    gap: 5%;
+    flex-basis: 82%;
+    justify-content: flex-end;
+}
+.nav-div {
+    display: flex;
+    justify-content: center;
+}
+.nav-brand {
+    font-size: larger;
+    font-family: 'Mochiy Pop One', sans-serif;
+    background-color: blue;
+    border-radius: 25px;
+    height: 60px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-brand a {
+    color: white;
+    text-decoration: none;
+}
+.head-top {
+    margin: auto;
+    width: 25VW;
+    margin-top: 200px;
+    background-color: rgba(0, 0, 0, 0.235);
+    border-radius: 50px;
+    text-align: center;
+}
+.head-top-tagline span {
+    font-size: 450%;
+    color: blue;
+    text-align: center;
+}
+.head-top-button {
+    background-color: skyblue;
+    width: 7%;
+    margin: auto;
+    margin-top: 1%;
+    text-align: center;
+    padding: 1%;
+    border-radius: 13px;
+    transition: ease-in-out;
+}
+.head-top-button a {
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    transition: ease-in-out;
+}
+.div1 {
+    background-image: url("circket-BG.jpg");
+
+}
+.div2 {
+    background-image: url("tennis.jpg");
+}
+.div3 {
+    background-image: url("hockey-bg.jpg");
+}
+.headings span {
+    font-size: 52px;
+    color: white;
+    background-color: rgba(137, 43, 226, 0.293);
+    padding: 1%;
+    border-radius: 14px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.headings {
+    padding-top: 8%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.product {
+    display: flex;
+    padding: 20px;
+    width: 33VW;
+    margin: auto;
+    background-color: rgb(67, 58, 58);
+}
+.product-image img {
+    height: 15VW;
+}
+.product-summery {
+    margin: 5%;
+    width: max-content;
+    background-color: rgb(37, 34, 34);
+    text-align: center;
+}
+.product-summery span {
+    font-size: xx-large;
+    font-weight: bold;
+}
+.product-summery li {
+    font-size: large;
+    text-align: left;
+}
+.button {
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+    margin-top: 5%;
+}
+.button-div a {
+    font-size: xx-large;
+    text-decoration: none;
+    background-color: rgb(242, 255, 0);
+    padding: 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.ind-products-part {
+    border: 1px solid;
+    height: 40%;
+    width: 30%;
+    margin-top: 5%;
+}
+#button {
+    font-size: 50px;
+    margin-bottom: 40px;
+    width: 60vw;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 35px;
+}
+.links {
+    display: none;
+    font-size: xx-large;
+    background-color: aqua;
+    width: 300px;
+    margin-left: 40VW;
+    margin-top: 300px;
+}
+.links a {
+    text-decoration: none;
+    font-size: xxx-large;
+}
+.menu:hover .links {
+    display: block;
+}
+@media screen and (max-width: 1100px) {
+    .nav{
+        width: 100vw;
+    }
+    .nav ul {
+        display: none;
+    }
+    .head-top {
+        width: 90VW;
+    }
+    .head-top-button{
+        width: 30%;
+    }
+    .product{
+        display: block;
+        width: 50vw;
+    }
+    .product-summery{
+        width: 40vw;
+    }
+    .product-image img{
+        height: 30vw;
+    }
+    .button-div a{
+        font-size: large;
+        padding: 14px;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 1101px) {
+    #button {
+        display: none;
+    }
+}
+@media screen and (min-width: 1441px) {
+    .pic-h-w{
+        background-repeat: round;
+        height: 50vw;
+    }
+}
